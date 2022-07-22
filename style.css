@@ -1,0 +1,301 @@
+/*use percentages for responsive design, and you can include max-width ass pixels*/
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+  
+header {
+    margin: 0;
+}
+
+header div{
+    width: 94vw;
+    min-width: 820px;
+}
+
+.test {
+    display: inline-block;
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: 24px;
+    color: #4E4D4D;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    align-items: center;
+}
+
+.itemnav {
+    padding-left: 2;
+    padding-right: 2%;
+}
+
+.n1 {
+    display: flex;
+    padding: .5% 1%;
+}
+
+.n2 {
+    display: flex;
+    padding-left: 13.5%;
+}
+
+
+/*.right {
+    float: right;
+}
+
+nav ul {
+    width: 60vw;
+    min-width: 300px;
+    padding-left: 16px;
+}
+
+li {
+    padding-right: 16px;
+}*/
+
+.egglogo {
+    padding-left: 360px;
+    grid-area: log;
+}
+
+.itemnav1 {
+    grid-area: about;
+}
+
+.itemnav2 {
+    grid-area: work;
+}
+
+.itemnav3 {
+    grid-area: resume;
+}
+
+.itemnav4 {
+    grid-area: behance;
+}
+
+.itemnav5 {
+    grid-area: linkedin;
+}
+
+.spacing {
+    letter-spacing: 1.5px;
+}
+
+.logo {
+    min-width: 900px;
+    padding-top: 36px;
+    padding-left: 72px;
+    padding-bottom: 36px;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+.ptext {
+    font-family: SF Pro Display, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #4E4D4D;
+}
+
+.btext {
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.h1 {
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #4E4D4D;
+}
+
+.h2 {
+    font-family: SF Pro Display, Arial, sans-serif;
+    font-size: 30px;
+    color: #4E4D4D;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.Introname {
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: 20px;
+    color: #4E4D4D;
+}
+
+.introcontainer { 
+    padding: 2.5% 432px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 25% 5% 15% 10% 35%;
+    grid-template-areas: 
+    "intropic ."
+    "intropic introname"
+    "intropic introtext"
+    "intropic introdesc"
+    "intropic .";
+}
+
+.itema {
+    grid-area: intropic;
+}
+
+.itemb {
+    grid-area: introname;
+}
+.itemc {
+    grid-area: introtext;
+}
+.itemd {
+    grid-area: introdesc;
+}
+    
+.container {
+    padding: 2.5% 432px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 30% 10% 60%;
+    column-gap: 6%;
+    background-color: #BBEED9;
+}
+
+.item1 {
+    grid-column: 1;
+    grid-row: 1;
+    font-weight: bold;
+}
+
+.item2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.item3 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.item4 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.item5 {
+    grid-column: 2;
+    grid-row:3;
+}
+
+.item6 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.item7 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.pitem1 {
+    grid-area: picture;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.pitem2 {
+    grid-area: projecttitle;
+}
+
+.pitem3 {
+    grid-area: projectdesc;
+}
+
+.pitem4 {
+    grid-area: clickbutton;
+    background-color: #BBEED9;
+    border: none;
+    color: #4E4D4D;
+    padding: 0px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 180px;
+    height: 36px;
+}
+
+.pitem5 {
+    grid-area: question;
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #FEFEFE;
+}
+
+.pitem6 {
+    grid-area: emailchat;
+    font-family: SF Pro Display, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #FEFEFE;
+}
+
+.pitem7 {
+    grid-area: licon;
+    padding-left: 60%;
+    padding-right: 10%;
+}
+
+.pitem8 {
+    grid-area: bicon;
+    padding-left: 50%;
+}
+
+.container2 {
+    padding: 2.5% 432px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 25% 15% 15% 15% 30%;
+    grid-template-areas: 
+    "picture ."
+    "picture projecttitle"
+    "picture projectdesc"
+    "picture clickbutton"
+    "picture .";
+}
+
+.container3 {
+    padding: 2.5% 432px;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 25% 15% 15% 8% 37%;
+    grid-template-areas: 
+    ". picture"
+    "projecttitle picture"
+    "projectdesc picture"
+    ". picture"
+    "clickbutton picture";
+}
+
+.foot {
+    padding: 5% 432px;
+    display: grid;
+    grid-template-columns: 40% 40% 5% 5% 10%;
+    grid-template-rows: 10% 40% 40% 10%;
+    grid-template-areas:
+    ". . . . ."
+    "question . licon bicon ."
+    "emailchat . . . ."
+    ". . . . .";
+    background-color: #A0A0A0;
+    color: #FEFEFE;
+}
