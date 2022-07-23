@@ -266,7 +266,7 @@ header {
         min-width: 320px;
         width: auto;
         flex-direction: column;
-        /*padding: 0% 90%;*/
+        padding: 0% 89.5%;
     }
     .introcontainer {
         text-align: center;
@@ -328,6 +328,7 @@ header {
         min-width: 270px;
         min-height: 200px;
         object-fit: contain;
+        padding-left: 8%;
     }
     
     .pitem4 {
