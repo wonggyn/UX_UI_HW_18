@@ -22,11 +22,14 @@ header {
     flex-direction: row;
     width: auto;
     align-items: center;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .itemnav {
     padding-left: 2.5%;
     padding-right: 2.5%;
+    display: inline-block;
 }
 
 .n1 {
