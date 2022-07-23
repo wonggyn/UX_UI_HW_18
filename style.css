@@ -266,7 +266,7 @@ header {
         min-width: 320px;
         width: auto;
         flex-direction: column;
-        padding: 0% 90%;
+        /*padding: 0% 90%;*/
     }
     .introcontainer {
         text-align: center;
@@ -321,7 +321,7 @@ header {
     }
 
     .pitem1 {
-        padding-left: 8%;
+        /*padding-left: 8%;*/
         grid-area: picture;
         width: auto;
         height: auto;
